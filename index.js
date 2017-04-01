@@ -1,6 +1,6 @@
 
 const RE_FONT_FAMILY = /font-family\s*:\s*([^;\n]+)[;\n]/g;
-const RE_FONT_NAMES = /(?:(?:'|(?:\\"))?([(?:\\\\)\w\d ]+)(?:'|(?:\\"))?(,\s*)?)/g;
+const RE_FONT_NAMES = /(?:(?:'|(?:\\"))?([(?:\\\\)\w\d _-]+)(?:'|(?:\\"))?(,\s*)?)/g;
 const RE_DOUBLE_COUTE = /\\"/g;
 const RE_SPACE = /[ ]+/g;
 const RE_UNICODE = /\\\\([\d\w]{4})/g;
