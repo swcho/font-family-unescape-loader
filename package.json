@@ -1,0 +1,25 @@
+{
+  "name": "font-family-unescape-loader",
+  "version": "1.0.0",
+  "description": "Unicode Font Family Name Unescaping",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swcho/font-family-unescape-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swcho/font-family-unescape-loader/issues"
+  },
+  "homepage": "https://github.com/swcho/font-family-unescape-loader#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "webpack": "^2.3.2"
+  }
+}

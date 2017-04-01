@@ -1,0 +1,16 @@
+
+.korean {
+    font-family: '한글 SS 한글';
+}
+
+.japaness {
+    font-family: 'はんなり SD 明朝';
+}
+
+.chiness {
+    font-family: "孙新恒 SD 乖乖体";
+}
+
+.mixed {
+    font-family: '한글 SS 한글', 'はんなり SD 明朝', FONT1, 'FONT2', 'FONT With Space', "孙新恒乖乖体";
+}
